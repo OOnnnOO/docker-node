@@ -1,8 +1,8 @@
-FROM onnno/ubuntu:16.04-0.1.0
+FROM onnno/ubuntu:16.04
 
 MAINTAINER Dong Li "docker@lidong.me”
 
-ENV NODE_VERSION 6.11.0
+ENV NODE_VERSION 6.12.3
 
 RUN  apt-get update \
 	&& apt-get install -y --no-install-recommends xz-utils \
