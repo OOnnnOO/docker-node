@@ -2,7 +2,7 @@ FROM onnno/ubuntu:16.04
 
 MAINTAINER Dong Li "docker@lidong.me”
 
-ENV NODE_VERSION 6.12.3
+ENV NODE_VERSION 6.13.1
 
 RUN  apt-get update \
 	&& apt-get install -y --no-install-recommends xz-utils \
